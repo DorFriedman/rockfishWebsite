@@ -1,0 +1,100 @@
+* {
+   margin:0;
+   padding:0;
+   font-family: 'donateFont', sans-serif;
+   text-decoration:none
+}
+
+.head-block {
+   width:80%;
+   height:100px;
+   border-bottom:1px solid black;
+   margin:0 auto;
+
+}
+
+.head-block h1{
+   text-align: center;
+   vertical-align: middle;
+   line-height: 100px;
+   font-size: 35px;
+   color: #0EBFE9 ;
+   text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+
+table{
+   width:80%;
+   margin:0 auto;
+   border-collapse: collapse;
+   margin-top:20px;
+}
+
+td{
+   transition: all .2s ease-in-out;
+}
+
+td:hover{
+   transform: scale(1.1);
+}
+
+tr{
+   height:250px;
+   /*border-bottom:1px solid black;*/
+}
+
+.col1, .col2, .col3{
+   /*border-right:1px solid black;*/
+}
+
+.cgc{
+   font-family: "Palatino Linotype", sans-serif;
+   font-style:italic;
+   text-align: center;
+   vertical-align: middle;
+   color:#d3572f;
+}
+
+.oof{
+   font-family: "Gentium Book Basic", serif;
+   font-style: bold;
+   text-align: center;
+   vertical-align: middle;
+   color:black;
+}
+
+.contentimg{
+   display:block;
+   margin:0 auto;
+   vertical-align:middle;
+   width:80%;
+}
+
+.sj{
+   width:60%;
+}
+
+.TBC{
+   width:30%;
+}
+
+.dv{
+   width:60%;
+}
+
+/*.odd{
+   background-color:#F0FFFF;
+}
+
+.even{
+   background-color:#F0F8FF;
+}*/
+
+@font-face {
+    font-family: 'navbarFont';
+    src: url('fonts/bebasneue_regular-webfont.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'donateFont';
+    src: url('fonts/chunkfive-webfont.woff') format('woff');
+}
