@@ -233,6 +233,40 @@ li a:hover, .dropdown:hover .dropbtn {
     z-index: 9999;
     text-shadow: 0px 1px 2px rgba(0, 0, 0, 0.33), -1px 0px 2px rgba(255, 255, 255, 0);
 }
+.about {
+    width: 100%;
+    padding-bottom: 20px;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+.text {
+    width: 40%;
+    display: inline-block;
+    vertical-align: top;
+    font-family: "navbarFont",sans-serif;
+}
+
+.text h5 {
+    font-size: 30px;
+}
+
+.text p {
+    width: 80%;
+    line-height: 23px;
+    font-size: 14pt;
+    letter-spacing: 2px;
+}
+
+.rvcc-photo img {
+    width: 100%;
+}
+
+.rvcc-photo {
+    display: inline-block;
+    padding-top: 40px;
+    padding-left: 40px;
+}
 @font-face {
 	font-family: 'navbarFont';
 	src: url('fonts/bebasneue_regular-webfont.woff') format('woff');
